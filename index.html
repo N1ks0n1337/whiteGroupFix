@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rokkitt:wght@400;600&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container _container">
+            <div class="header__desktop">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__items">
+                    <div class="header__item">
+                        <div class="header__item-title">Служба доставки:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (812) 643 04 04</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="#popup">Доставка</a>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item-title">Служба бронирования:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (812) 643 04 30</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="">Забронировать</a>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item-title">Банкетная служба:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (965) 010 62 61</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__about">
+                    <div class="header__about-items">
+                        <div class="header__about-item">
+                            <div class="header__about-item-profile">
+                                    <img src="./img/icon/Profile.svg" alt="">
+                            </div>
+                            <div class="header__about-item-flag">
+                                <img src="./img/icon/flagRu.svg" alt="">
+                            </div>
+                            <div class="header__about-item-lang">
+                                RU
+                            </div>
+                        </div>
+                        <div class="header__about-item"></div>
+                    </div>
+                <div class="header__about-social">
+                    <img class="header__about-social-img" src="./img/icon/googleplayicons.svg" alt="">
+                    <img class="header__about-social-img" src="./img/icon/Vkicons.svg" alt="">
+                    <img class="header__about-social-img" src="./img/icon/Instagramicons.svg" alt="">
+                    <img class="header__about-social-img" src="./img/icon/facebookicons.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile _container">
+            <div class="header__mobile-profile">
+                <img src="./img/icon/Profile.svg" alt="">
+            </div>
+            <div class="header__mobile-logo">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <div class="header__mobile-flag">
+                <img src="./img/icon/flagRu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="book">
+            <a href="" class="book__btn">Забронировать стол</a>
+        </div>
+        <div class="restaurant">
+            <div class="restaurant__container _container">
+                <div class="block__title _rest">Рестораны</div>
+                <div class="swiper mySwiper _container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="restaurant-item">
+                                <div class="restaurant-item-img">
+                                    <img src="./img/slider_rest/sliderRest1.png" alt="">
+                                </div>
+                                <div class="restourant-item-footer">
+                                    <img src="/img/slider_rest/ferma.svg" alt="">
+                                    <div class="restourant-item-footer__text">Финляндский пр. д 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="restaurant-item">
+                                <div class="restaurant-item-img">
+                                    <img src="./img/slider_rest/sliderRest2.svg" alt="">
+                                </div>
+                                <div class="restourant-item-footer">
+                                    <img src="/img/slider_rest/hincali_slider.svg" alt="">
+                                    <div class="restourant-item-footer__text">Финляндский пр. д 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="restaurant-item">
+                                <div class="restaurant-item-img">
+                                    <img src="./img/slider_rest/sliderRest3.svg" alt="">
+                                </div>
+                                <div class="restourant-item-footer">
+                                    <img class="_item_img" src="/img/slider_rest/chaika.svg" alt="">
+                                    <div class="restourant-item-footer__text">наб. Мартынова, напротив д.40</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="restaurant-item">
+                                <div class="restaurant-item-img">
+                                    <img src="./img/slider_rest/sliderRest2.svg" alt="">
+                                </div>
+                                <div class="restourant-item-footer">
+                                    <img src="/img/slider_rest/ferma.svg" alt="">
+                                    <div class="restourant-item-footer__text">Синопская</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="delivery__container _container">
+                <div class="block__title">
+                    <h2>ДОСТАВКА</h2>
+                </div>
+                <div class="delivery__wrapper">
+                    <div class="delivery__wrapper-button">
+                        <a class="delivery-button" href="#popup">
+                            <img src="./img/icon/Truck.svg" alt="">Доставка
+                        </a>
+                    </div>
+                    <div class="delivery__wrapper-descr">
+                        <h3>Доставка из ресторанов FermA и ДеДа Хинкали<br/>
+                            Ежедневно с 11:00 до 22:00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="confectionery">
+            <div class="confectionery__container _container">
+                <div class="block__title confectionery__title">кафе и кондитерские</div>
+                <div class="swiper mySwiper _container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="confectionery-item">
+                                <div class="confectionery-item-img">
+                                    <img src="./img/slider_conf/cafe1.png" alt="">
+                                </div>
+                                <div class="confectionery-item-footer">
+                                    <img src="/img/slider_conf/ferma.svg" alt="">
+                                    <div class="confectionery-item-footer__text">Садовая ул. д.42</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="confectionery-item">
+                                <div class="confectionery-item-img">
+                                    <img src="./img/slider_conf/cafe2.png" alt="">
+                                </div>
+                                <div class="confectionery-item-footer">
+                                    <img src="/img/slider_conf/ferma.svg" alt="">
+                                    <div class="confectionery-item-footer__text">Финляндский пр. д 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="confectionery-item">
+                                <div class="confectionery-item-img">
+                                    <img src="./img/slider_conf/cafe3.png" alt="">
+                                </div>
+                                <div class="confectionery-item-footer">
+                                    <img src="/img/slider_conf/ferma.svg" alt="">
+                                    <div class="confectionery-item-footer__text">Финляндский пр. д 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="confectionery-item">
+                                <div class="confectionery-item-img">
+                                    <img src="./img/slider_conf/cafe4.png" alt="">
+                                </div>
+                                <div class="confectionery-item-footer">
+                                    <img src="/img/slider_conf/ferma.svg" alt="">
+                                    <div class="confectionery-item-footer__text">Финляндский пр. д 1</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stock">
+            <div class="stock__container _container">
+                <div class="block__title stock__title">Акции</div>
+                <div class="swiper stockSwiper _container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide stock_slider">
+                          <div class="stock__item_wrapper">
+                              <div class="stock__item-img">
+                                  <img src="./img/slider_rest/ferma.svg" alt="">
+                              </div>
+                              <div class="stock__item-subtitle">
+                                Мобильный<br/> фуршет
+                              </div>
+                              <div class="stock__item-descr">
+                                Широкий выбор мини-<br/>закусок на любой вкус
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide stock_slider">
+                        <div class="stock__itemTwo_wrapper">
+                            <div class="stock__itemTwo-subtitle">
+                                праздничный стол<br/> от ресторана
+                            </div>
+                            <div class="stock__itemTwo-img">
+                                <img src="./img/fermer_white.svg" alt="">
+                            </div>
+                            <div class="stock__itemTwo-descr">
+                                скидка на доставку<br/> равную дате рождения                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide  stock_slider">
+                        <div class="stock__itemThree_wrapper">
+                            <div class="stock__itemThree-subtitle">
+                              Десерты<br/> и
+                              полуфабрикаты
+                            </div>
+                            <div class="stock__itemThree-img">
+                                <img src="./img/fermer_white.svg" alt="">
+                            </div>
+                            <div class="stock__itemThree-descr">
+                                по цене кондитерской <br/>прямо до дома
+                            </div>
+                        </div>
+                      </div>
+                      
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="map__container _container">
+                <div class="block__title">
+                    МЫ НА КАРТЕ
+                </div>
+                <div class="map__item">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adecc5dee05ef3f4a9d5c31885df697ceb6c979ed216f3307366146026bfb76a8&amp;width=100%25&amp;height=632&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div id="popup" class="popup">
+        <a href="" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close"><img src="./img/icon/close.svg" alt=""></a>
+                <div class="popup__title-group">
+                    <div class="popup__text-background-top"></div>
+                    <div class="popup__title">Откуда вам доставить?</div>
+                    <div class="popup__text-background-bottom"></div>
+                </div>
+                <div class="popup__descr-items">
+                    <div class="popup__descr-item _popup_item">
+                        <div class="popup__img-ferma"><img src="./img/popup/ferma.svg" alt=""></div>
+                        <div class="popup__text">Рестораны FermA - это атмосфера праздника и уюта, это вкусная еда, при приготовлении которой мы придерживаемся гастрономической философии, сконцентрированной в девизе «NATURAL FOOD».  Настоящая, привычная еда из <br/>лучших продуктов!</div>
+                        <div class="popup__btn"><a class="popup__button" href="">Выбрать</a></div>
+                    </div>
+                    <div class="popup__descr-item">
+                        <div class="popup__img-hincali"><img src="./img/popup/hincali.svg" alt=""></div>
+                        <div class="popup__text">«ДеДа Хинкали» - это уютная обстановка , вкусная еда и демократичные цены. Собирайтесь большой компанией пить вино, слушать грузинские песни или просто  приходите пообедать, чтобы на время сбежать от городской суеты!
+                        </div>
+                        <div class="popup__btn"><a class="popup__button" href="">Выбрать</a></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="contacts__container">
+            <div class="contacts__title block__title">
+                КОНТАКТЫ
+            </div>
+            <div class="block__subtitle">
+                Ежедневно с 11:00 до 22:00
+            </div>
+            <div class="contacts__items">
+                <div class="contact__item">
+                    <img src="/img/icon/call.svg" alt="">
+                    <div class="contact__item-text">
+                        <span>Единая служба бронирования:</span><br>
+                        8 (812) 643 04 30
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <img src="/img/icon/call.svg" alt="">
+                    <div class="contact__item-text">
+                        <span>Служба доставки:</span><br>
+                        8 (812) 643 04 04
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <img src="/img/icon/call.svg" alt="">
+                    <div class="contact__item-text">
+                        <span>Банкетная служба:</span><br>
+                        8 (965) 010 62 61
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <a href="#" class="nav__link">
+            <span class="nav__text">ГЛАВНАЯ</span>
+            <img class="nav__icon" src="/img/mobileMenu/roof.svg" alt="">
+        </a>
+        <a href="#" class="nav__link">
+            <span class="nav__text">ДОСТАВКА</span>
+            <div class="nav__img--container">
+                <img class="nav__icon" src="/img/mobileMenu/deliver.svg" alt="">
+            </div>
+        </a>
+        <a href="#" class="nav__link">
+            <span class="nav__text">КОНТАКТЫ</span>
+            <img class="nav__icon" src="/img/mobileMenu/call.svg" alt="">
+        </a>
+        <a href="#" class="nav__link">
+            <span class="nav__text">КОРЗИНА</span>
+            <img class="nav__icon" src="/img/mobileMenu/basket.svg" alt="">
+        </a>
+    </nav>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
