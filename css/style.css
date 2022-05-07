@@ -323,7 +323,7 @@ font-family: 'Yeseva One', cursive;
 
 .restaurant {
     margin-top: 68px;
-    margin-bottom: 110px;
+    margin-bottom: 40px;
 }
 
 @media(max-width: 906px) {
@@ -419,7 +419,7 @@ font-family: 'Yeseva One', cursive;
     .restaurant__title {
         font-size: 60px;
         position: absolute;
-        top: -52px;
+        top: -42px;
     }
 }
 
