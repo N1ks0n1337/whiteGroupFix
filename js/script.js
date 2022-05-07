@@ -111,6 +111,7 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
         1264: {
             slidesPerView: 4,
+            spaceBetween: 5,
         },
 
         884: {
@@ -267,7 +268,6 @@ if (popupCloseIcon.length > 0) {
 }
 
 function popupOpen(curentPopup) {
-
     if (curentPopup && unlock) {
         const popupActive = document.querySelector('.popup.open');
         if (popupActive) {
@@ -276,7 +276,7 @@ function popupOpen(curentPopup) {
             bodyLock();
             curentPopup.classList.add('open');
             curentPopup.addEventListener("click", function (e) {
-                if (!e.target.closest('.popup_content')) {
+                if (!e.target.closest('.popup__content')) {
                     popupClose(e.target.closest('.popup'));
                 }
             });
@@ -294,7 +294,7 @@ function popupClose(popupActive, doUnlock = true) {
 }
 
 function bodyLock() {
-    const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
+    const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper');
 
     if (lockPadding.length > 0) {
         for (let index = 0; index < lockPadding.length; index++) {
