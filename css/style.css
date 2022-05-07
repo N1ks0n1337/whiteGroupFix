@@ -906,9 +906,14 @@ font-family: 'Yeseva One', cursive;
 /*---confectionery----*/
 
 .stock {
+    position: relative;
     padding: 10px;
 }
-
+@media(max-width: 557px) {
+    .stock {
+        margin-top: 40px;
+    }
+}
 .stock__item_wrapper {
     width: 500px;
     height: 313.92px;
@@ -955,7 +960,7 @@ font-family: 'Yeseva One', cursive;
 @media(max-width: 452px) {
     .confectionery__title {
         position: absolute;
-        top: -20px;
+        top: -11px;
     }
 }
 
@@ -980,6 +985,10 @@ font-family: 'Yeseva One', cursive;
 
 @media(max-width: 557px) {
     .stock__title {
+        font-size: 60px;
+        position: absolute;
+        top: -40px;
+        left: 0;
     }
 }
 
