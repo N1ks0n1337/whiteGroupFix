@@ -396,8 +396,6 @@ font-family: 'Yeseva One', cursive;
 @media(max-width: 559px) {
     .restaurant__title {
         font-size: 60px;
-        position: absolute;
-        top: 20px;
     }
 }
 
@@ -421,15 +419,13 @@ font-family: 'Yeseva One', cursive;
     .restaurant__title {
         font-size: 60px;
         position: absolute;
-        top: -25px;
+        top: -52px;
     }
 }
 
 @media(max-width: 396px) {
     .restaurant__title {
         font-size: 40px;
-        position: absolute;
-        top: -25px;
     }
 }
 
@@ -481,6 +477,9 @@ font-family: 'Yeseva One', cursive;
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .confectionery-item{
+        margin-top: 155px;
+    }
 }
 
 .confectionery__container {
@@ -495,6 +494,7 @@ font-family: 'Yeseva One', cursive;
 @media(max-width: 450px) {
     .confectionery-item {
         padding: 1px;
+        margin-top: 50px;
     }
 
     ._confec {
@@ -549,10 +549,6 @@ font-family: 'Yeseva One', cursive;
 }
 
 /*-------delivery---------*/
-.delivery {
-    margin-top: 119px;
-    padding: 20px;
-}
 
 .delivery__wrapper {
     display: flex;
@@ -959,7 +955,7 @@ font-family: 'Yeseva One', cursive;
 @media(max-width: 452px) {
     .confectionery__title {
         position: absolute;
-        top: -40px;
+        top: -20px;
     }
 }
 
@@ -984,9 +980,6 @@ font-family: 'Yeseva One', cursive;
 
 @media(max-width: 557px) {
     .stock__title {
-        position: absolute;
-        top: -30px;
-        left: -10px;
     }
 }
 
