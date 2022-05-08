@@ -6,7 +6,7 @@ if (counters) {
             e.preventDefault()
 			if (target.closest('.counter__button')) {
 				if (target.closest('.counter').querySelector('input').value == '' && (target.classList.contains('counter__button_minus') || target.classList.contains('counter__button_plus'))) {
-					target.closest('.counter').querySelector('input').value = 0;
+					target.closest('.counter').querySelector('input').value = 1;
                     e.preventDefault()
 				}
 
@@ -20,8 +20,8 @@ if (counters) {
                     e.preventDefault()
 				}
 
-				if (value <= 0) {
-					value = 0;
+				if (value <= 1) {
+					value = 1;
 					target.closest('.counter',).querySelector('.counter__button_minus').classList.add('disabled')
 				} else {
 					target.closest('.counter').querySelector('.counter__button_minus').classList.remove('disabled')
@@ -42,7 +42,7 @@ if (counters) {
             e.preventDefault()
 			if (target.closest('.popup-counter__button')) {
 				if (target.closest('.popup-counter').querySelector('input').value == '' && (target.classList.contains('counter__button_minus') || target.classList.contains('counter__button_plus'))) {
-					target.closest('.popup-counter').querySelector('input').value = 0;
+					target.closest('.popup-counter').querySelector('input').value = 1;
                     e.preventDefault()
 				}
 
@@ -56,8 +56,8 @@ if (counters) {
                     e.preventDefault()
 				}
 
-				if (value <= 0) {
-					value = 0;
+				if (value <= 1) {
+					value = 1;
 					target.closest('.popup-counter').querySelector('.counter__button_minus').classList.add('disabled')
 				} else {
 					target.closest('.popup-counter').querySelector('.counter__button_minus').classList.remove('disabled')
@@ -77,7 +77,7 @@ if (counters) {
             e.preventDefault()
 			if (target.closest('.menu-counter__button')) {
 				if (target.closest('.menu-counter').querySelector('input').value == '' && (target.classList.contains('counter__button_minus') || target.classList.contains('counter__button_plus'))) {
-					target.closest('.menu-counter').querySelector('input').value = 0;
+					target.closest('.menu-counter').querySelector('input').value = 1;
                     e.preventDefault()
 				}
 
@@ -91,8 +91,8 @@ if (counters) {
                     e.preventDefault()
 				}
 
-				if (value <= 0) {
-					value = 0;
+				if (value <= 1) {
+					value = 1;
 					target.closest('.menu-counter').querySelector('.counter__button_minus').classList.add('disabled')
 				} else {
 					target.closest('.menu-counter').querySelector('.counter__button_minus').classList.remove('disabled')
@@ -256,7 +256,7 @@ if (popupLinks.length > 0) {
     }
 }
 
-const popupCloseIcon = document.querySelectorAll('.close-popup');
+const popupCloseIcon = document.querySelectorAll('.close__popup');
 if (popupCloseIcon.length > 0) {
     for (let index = 0; index < popupCloseIcon.length; index++) {
         const el = popupCloseIcon[index];
