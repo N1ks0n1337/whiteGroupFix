@@ -1502,10 +1502,14 @@ font-family: 'Yeseva One', cursive;
     width: 1000px;
     flex-wrap: wrap;
 }
+.menu__item-img{
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
 
 .menu__item-body {
+    height: 125px;
     padding: 10px;
-
 }
 
 .menu-descr {
@@ -1592,6 +1596,10 @@ font-family: 'Yeseva One', cursive;
 }
 
 .menu-descr-btn {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 13px;
     display: flex;
     justify-content: center;
