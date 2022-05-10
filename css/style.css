@@ -1542,13 +1542,10 @@ font-family: 'Yeseva One', cursive;
 }
 
 .menu__header-item a {
-    font-size: 30px;
+    font-size: 20px;
     color: #000000;
-    padding: 10px;
-}
-
-.menu__header-item {
-    margin-right: 47px;
+    padding: 13px;
+    white-space: nowrap;
 }
 
 .menu__header-desktop-and {
@@ -1572,7 +1569,7 @@ font-family: 'Yeseva One', cursive;
     color: #888888;
     display: flex;
     align-items: center;
-    margin-right: 28px;
+    margin-right: 10px;
 }
 
 .menu-descr-price-nosales {
@@ -1788,7 +1785,7 @@ font-family: 'Yeseva One', cursive;
     }
 
     .menu__header-item a {
-        font-size: 26px;
+        font-size: 18px;
     }
 
     .menu__header-desktop-and {
@@ -1807,7 +1804,7 @@ font-family: 'Yeseva One', cursive;
     }
 
     .menu__header-item a {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .menu__header-desktop-and {
