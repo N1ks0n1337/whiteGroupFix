@@ -1596,16 +1596,16 @@ font-family: 'Yeseva One', cursive;
 }
 
 .menu-descr-btn {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     margin-top: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+@media(max-width: 883px){
+    .menu-descr-btn {
+        margin-top: 3px;
+    }  
+}
 .menu-descr-button {
     display: flex;
     justify-content: space-around;
@@ -1685,7 +1685,7 @@ font-family: 'Yeseva One', cursive;
 }
 
 .check__item-counter {
-    margin-right: 22px;
+    margin-right: 20px;
     font-size: 20px;
     text-transform: uppercase;
     color: #9D9992;
@@ -1694,6 +1694,7 @@ font-family: 'Yeseva One', cursive;
 .check__item-price {
     font-size: 15px;
     color: #4A4A4A;
+    white-space: nowrap;
 }
 
 .check__item:not(:last-child) {
